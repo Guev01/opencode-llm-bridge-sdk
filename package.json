@@ -1,0 +1,36 @@
+{
+  "name": "opencode-llm-bridge-sdk",
+  "version": "0.1.0",
+  "description": "Small Node.js client for OpenCode's session API",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@opencode/client": "2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Guev01/opencode-llm-bridge-sdk.git"
+  },
+  "homepage": "https://github.com/Guev01/opencode-llm-bridge-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/Guev01/opencode-llm-bridge-sdk/issues"
+  }
+}
